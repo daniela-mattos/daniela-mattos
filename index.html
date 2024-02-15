@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/c18763b2a3.js" crossorigin="anonymous"></script>
+    
+
+</head>
+
+<body>
+    <main class="container">
+        
+        
+        <section class="container__conteudo">
+            <div class="conteudo_imagem">
+                <img src="/assets/alura.svg" id="img-topo">
+            </div>
+            
+            <textarea id="areaTexto" type="text" id="usertext" class="entrada-texto" placeholder="digite seu texto" oninput="validarTextoAoDigitar()" ></textarea>
+            
+            <div class="botoes">
+                <p class="container__botoes__alerta">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span id="alerta">Apenas letras minúsculas e sem acento. </span></p>
+    
+                <div class="container__botoes">
+                    
+                    <button class="container__botoes__navegacao creep" onclick="creepTexto()" id="criptografar" disabled>Criptografar</button>
+    <br>
+                    <button class="container__botoes__navegacao descreep" onclick="descreepTexto()" id="descriptografar" disabled> Descriptografar </button> 
+                </div>  <!-- fim apresentacao__links --> 
+            </div>
+                               
+        </section>
+        
+        <section class="container__resposta__imagem">
+
+            <img src="/assets/sem-mensagem.svg" alt="Ilustração de um menino examinando um diamante com uma lupa">
+            <h4 id="resposta" class="container__resposta__texto">Nenhuma mensagem encontrada</h4>
+            <p class="pResp">Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+        </section> <!-- fim container__resposta__imagem -->
+        
+            
+    </main>
+    
+    <footer class="rodape">
+        <p>Desenvolvido por Dani Mattos © All Rights Reserved </p>
+    </footer> 
+
+    <script src="js/script.js" defer></script>
+
+</body>
+</html>
+
