@@ -1,5 +1,7 @@
 ### Olá, eu sou Daniela Mattos 👋
-Estou cursando Sistemas para Internet no IFRS POA
+Estou cursando Tecnologias em Sistemas para Internet no IFRS POA e aqui tenho alguns dos projetos já desenvolvidos na minha jornada de estudos, iniciada em 2023.
+
+Em 2024, ingressei no ONE - Oracle Next Education - onde optei pela trilha de estudos em Back-end, com JAVA.
 
 ### Tecnologias que estudo
 <div style="display: inline-block"> <br />
